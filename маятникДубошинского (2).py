@@ -91,6 +91,5 @@ textstr = f'β={b}\nω₀={w}\nA={A}\nΩ={W}\nα={al}\nx₀={x0}\nv₀={v0}'
 plt.text(0.02, 0.98, textstr, transform=plt.gca().transAxes, fontsize=10,
         verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
 plt.tight_layout()
-plt.savefig(r'C:\Users\aleks\Desktop\Новая папка (4)\ИП\phase_portrait1.png', dpi=150, bbox_inches='tight')
 plt.show()
 
